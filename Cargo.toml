@@ -1,0 +1,17 @@
+[package]
+name = "bot_collection"
+version = "0.1.0"
+authors = ["m00ga <sunrineme@gmail.com>"]
+edition = "2018"
+
+[lib]
+name="bot_collection"
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version= "0.10.8", features= ["blocking"]}
+serde = {version= "1.0.115", features= ["derive"]}
+serde_derive = "1.0.115"
+serde_json = "1.0.57"
