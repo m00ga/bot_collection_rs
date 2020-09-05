@@ -1,1 +1,1 @@
-mod captcha;
+pub mod captcha;
